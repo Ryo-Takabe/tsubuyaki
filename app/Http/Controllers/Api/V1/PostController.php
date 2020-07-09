@@ -13,7 +13,8 @@ class PostController extends Controller
 {
     /**
      * つぶやき　取得
-     * @return \Illuminate\Http\Resources\Json\AnonymousResourceCollection
+     * @param Request $request
+     * @return PostResource
      */
     public function index(Request $request)
     {
